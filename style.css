@@ -25,24 +25,59 @@ header {
 
 .flex-container {
     display: flex;
+}
+
+.flex-main {
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
     align-items: center;
 }
 
-footer {
-    background-color: #1A1A1A;
+.flex-footer {
+    justify-content: space-between;
+    align-items: center;
     height: 100px;
-    margin-top: 50px;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Title */
 
 h5 {
     color: white;
+    font-size: 16px;
 }
 
 h6 {
     color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Header */
+
+.flex-header {
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+.icons-header {
+    color: white;
+}
+
+.logo {
+    height: 80px;
+    background-image: url(img/boolean-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
 }
 
 /* Main */
@@ -71,6 +106,8 @@ img {
     background-color: green;
     padding: 5px 15px;
 }
+
+/* Img hover */
 
 .second-img {
     display: none;
@@ -116,9 +153,33 @@ img {
     color: red;
 }
 
+.fa.brands {
+    color: white;
+}
+
+.fa-border {
+    border: transparent;
+}
+
 /* Footer */
 
+footer {
+    background-color: #1A1A1A;
+    height: 100px;
+    margin-top: 50px;
+}
 
+.legal {
+    flex-basis: 25%;
+}
+
+.legal-copy {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    line-height: 150%;
+}
 
 /* Extra */
 
