@@ -31,8 +31,6 @@ header {
     align-items: center;
 }
 
-
-
 /* Main */
 
 .card {
@@ -59,6 +57,37 @@ img {
     background-color: green;
     padding: 5px 15px;
 }
+
+.img:hover::after {
+    content: url(img/1b.webp);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 486.666666px;
+    display: block;
+}
+
+/* .hover-img {
+    content: url(img/1b.webp);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 486.666666px;
+}
+
+.hover-img:hover {
+    content: url(img/1b.webp);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 486.666666px;
+} */
 
 /* Icons */
 
