@@ -77,7 +77,9 @@ img {
     font-weight: bolder;
 }
 
-.old-price 
+.old-price {
+    text-decoration: line-through;
+}
 
 /* Icons */
 
@@ -99,6 +101,8 @@ img {
     font-size: 2rem;
     color: red;
 }
+
+/* Footer */
 
 
 /* Extra */
