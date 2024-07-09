@@ -58,36 +58,26 @@ img {
     padding: 5px 15px;
 }
 
-.img:hover::after {
-    content: url(img/1b.webp);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    max-width: 486.666666px;
+.second-img {
+    display: none;
+}
+
+.card-img:hover .main-img {
+    display: none;
+}
+
+.card-img:hover .second-img {
     display: block;
 }
 
-/* .hover-img {
-    content: url(img/1b.webp);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    max-width: 486.666666px;
+/* Main - copy */
+
+.new-price {
+    color: red;
+    font-weight: bolder;
 }
 
-.hover-img:hover {
-    content: url(img/1b.webp);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    max-width: 486.666666px;
-} */
+.old-price 
 
 /* Icons */
 
@@ -109,3 +99,40 @@ img {
     font-size: 2rem;
     color: red;
 }
+
+
+/* Extra */
+
+/* Tentativo con :hover::after */
+
+/* .img:hover::after {
+    content: url(img/1b.webp);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 486.666666px;
+    display: block;
+} */
+
+
+/* .hover-img {
+    content: url(img/1b.webp);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 486.666666px;
+}
+
+.hover-img:hover {
+    content: url(img/1b.webp);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 486.666666px;
+} */
