@@ -153,12 +153,14 @@ img {
     color: red;
 }
 
-.fa.brands {
+.fa-brands {
     color: white;
+    --fa-primary-color: white;
 }
 
 .fa-border {
     border: transparent;
+    --fa-border-radius: 10px;
 }
 
 /* Footer */
@@ -171,6 +173,10 @@ footer {
 
 .legal {
     flex-basis: 25%;
+}
+
+.social {
+    line-height: 140%;
 }
 
 .legal-copy {
