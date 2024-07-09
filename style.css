@@ -18,7 +18,7 @@ body {
 /* Utilities */
 
 header {
-    background-color: darkorange;
+    background-color: #FF6900;
     height: 100px;
     margin-bottom: 50px;
 }
@@ -29,6 +29,20 @@ header {
     flex-wrap: wrap;
     gap: 20px;
     align-items: center;
+}
+
+footer {
+    background-color: #1A1A1A;
+    height: 100px;
+    margin-top: 50px;
+}
+
+h5 {
+    color: white;
+}
+
+h6 {
+    color: white;
 }
 
 /* Main */
@@ -103,6 +117,7 @@ img {
 }
 
 /* Footer */
+
 
 
 /* Extra */
