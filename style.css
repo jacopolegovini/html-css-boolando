@@ -1,0 +1,36 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+/* Utilities */
+
+header {
+    background-color: darkorange;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+.col {
+    
+}
+
+img {
+    max-width: 486.66666666px;
+}
